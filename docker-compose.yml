@@ -12,18 +12,16 @@ services:
     volumes:
       - ./data/db
       - ./config/configdb
-
+  
   mongo_seed:
     build:
       context: ./seed
     depends_on:
       - local
-
+  
   mongo-express:
     image: mongo-express:latest
     container_name: mongo-express
-    depends_on:
-      - mongo-seed
     restart: unless-stopped
     ports:
       - 8081:8081
@@ -32,6 +30,8 @@ services:
       ME_CONFIG_MONGODB_ADMINPASSWORD: example
       ME_CONFIG_MONGODB_SERVER: mongodb
       ME_CONFIG_OPTIONS_EDITORTHEME: ambiance
+    depends_on:
+      - mongodb
       
   droppy:
     container_name: droppy
