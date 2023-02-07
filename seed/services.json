@@ -1,0 +1,38 @@
+[
+    {
+        "text":"Lámpa és autó polírozás",
+        "img":
+            [
+                "http://192.168.2.104:8989/$/2WnvT",
+                "http://192.168.2.104:8989/$/jvPCP",
+                "http://192.168.2.104:8989/$/qsd8x",
+                "http://192.168.2.104:8989/$/WhQvb",
+                "http://192.168.2.104:8989/$/zhhAI",
+                "http://192.168.2.104:8989/$/4sQ6r"
+            ]
+    },
+    {
+        "text":"Külső ápolás",
+        "img":[]
+    },
+    {
+        "text":"Ózonos kárpit és klima fertőtlenítés",
+        "img":[]
+    },
+    {
+        "text":"Belső takarítás",
+        "img":[]
+    },
+    {
+        "text":"Motorkerékpár tisztítás",
+        "img":[]
+    },
+    {
+        "text":"Gőztisztítás",
+        "img":[]
+    },
+    {
+        "text":"Kanapé tisztítás",
+        "img":[]
+    }    
+]

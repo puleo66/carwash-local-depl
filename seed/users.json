@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Csaba",
+		"email": "puleo@carwash.hu",
+		"password": "$2b$10$tjyLosv7KFh1Amxs4UaUeOFVGetkKuUjy.tSp8TWBOyheHKN2SUUC",
+		"isAdmin": true
+	},
+	{
+		"name": "Péter",
+		"email": "peti@carwash.hu",
+		"password": "$2b$10$gamVd59MW8DNWlkZoIZw1uLss651/SQwWDKn7E9uUruml.KCwd5QO",
+		"isAdmin": false
+	}
+]
