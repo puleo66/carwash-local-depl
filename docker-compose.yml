@@ -32,17 +32,7 @@ services:
       ME_CONFIG_OPTIONS_EDITORTHEME: ambiance
     depends_on:
       - mongodb
-      
-  droppy:
-    container_name: droppy
-    image: silverwind/droppy
-    ports:
-      - 8989:8989
-    volumes:
-      - ./config:/config
-      - ./data:/files
-    restart: unless-stopped
-
+          
   local:
     image: puleo/carwash-local
     ports:
